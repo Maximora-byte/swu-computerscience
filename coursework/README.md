@@ -13,7 +13,7 @@ From the idea behind one exercise to the knowledge built across a course, let th
 
 [📚 找课程 / Find a course](#课程导航) · [🚀 开始使用 / Get started](#开始使用) · [🧭 看目录 / Repository map](#仓库地图) · [🧪 回归检查 / Regression checks](#回归检查)
 
-[💬 提问交流 / Ask and discuss](https://github.com/Maximora-byte/icpctest/issues) · [🤝 参与共建 / Contribute](#参与共建)
+[💬 提问交流 / Ask and discuss](https://github.com/Maximora-byte/swu-computerscience/issues) · [🤝 参与共建 / Contribute](#参与共建)
 
 </div>
 
@@ -72,8 +72,8 @@ The repository currently contains **71 standalone C exercise sources for Autumn 
 Choose **Code → Download ZIP** on the repository home, or use Git:
 
 ```bash
-git clone https://github.com/Maximora-byte/icpctest.git
-cd icpctest/coursework
+git clone https://github.com/Maximora-byte/swu-computerscience.git
+cd swu-computerscience/coursework
 ```
 
 单文件编译示例（Linux / macOS 或 Git Bash，已安装 GCC）：
@@ -168,7 +168,7 @@ A correction, an explanation, or an edge-case test can make these resources more
 
 | 你想做什么 / Your goal | 可以这样参与 / How to contribute |
 | :--- | :--- |
-| 提问或反馈错误 / Ask a question or report an error | 先搜索[已有 Issues](https://github.com/Maximora-byte/icpctest/issues)，没有相同问题再新建。<br>Search [existing Issues](https://github.com/Maximora-byte/icpctest/issues) first and open a new one if no matching report exists. |
+| 提问或反馈错误 / Ask a question or report an error | 先搜索[已有 Issues](https://github.com/Maximora-byte/swu-computerscience/issues)，没有相同问题再新建。<br>Search [existing Issues](https://github.com/Maximora-byte/swu-computerscience/issues) first and open a new one if no matching report exists. |
 | 改进现有内容 / Improve existing material | Fork 仓库，在独立分支修改对应文件，提交 Pull Request。<br>Fork the repository, edit the relevant files on a separate branch, and submit a Pull Request. |
 | 补充课程或资料 / Add a course or resources | 先用 Issue 说明课程、学期与内容，再按现有目录风格整理。<br>Describe the course, semester, and material in an Issue first, then follow the existing directory structure. |
 | 暂时不熟悉 Git / Not yet familiar with Git | 直接在 Issue 中写清建议、文件位置与示例，也是一份贡献。<br>A clear Issue describing your suggestion, file location, and examples is also a contribution. |

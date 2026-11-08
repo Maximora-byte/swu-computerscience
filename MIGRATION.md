@@ -6,9 +6,9 @@
 - ICPC 贪心笔记分支 / greedy-notes branch: `1e43315296c433548aedd61cc04cbf33c5f2718d`.
 - SWU homework main: `0241b4c8a8532bb70c28b8d1bac9f2cc602e6e9a`.
 
-此次整合以 `icpctest` 为承载仓库，按用户要求直接整合文件内容，不导入 SWU 的 Git 提交历史。ICPC 既有历史保留；SWU 历史仍在原仓库。尚未进入 ICPC main 的贪心笔记内容一并保留。原始 C/C++ 源码、样例数据和 MIT 许可证不变。
+此次整合以 `swu-computerscience`（原 `icpctest`）为承载仓库，按用户要求直接整合文件内容，不导入 SWU 的 Git 提交历史。ICPC 既有历史保留；SWU 历史仍在原仓库。尚未进入 ICPC main 的贪心笔记内容一并保留。原始 C/C++ 源码、样例数据和 MIT 许可证不变。
 
-This consolidation uses `icpctest` as the host and, as requested, imports file content without importing SWU commit history. Existing ICPC history remains; SWU history stays in its original repository. Pending greedy-note content is included. Original C/C++ sources, fixtures, and component MIT licences remain unchanged.
+This consolidation uses `swu-computerscience` (formerly `icpctest`) as the host and, as requested, imports file content without importing SWU commit history. Existing ICPC history remains; SWU history stays in its original repository. Pending greedy-note content is included. Original C/C++ sources, fixtures, and component MIT licences remain unchanged.
 
 ## 路径 / Paths
 
@@ -41,3 +41,17 @@ Check source/fixture byte identity and inclusion of the greedy notes, then run R
 回滚时对本次整合提交使用 `git revert <consolidation-commit-sha>`，先在独立分支检查；这样恢复整合前的 ICPC 布局，不会改动旧 SWU 仓库。后续若已叠加改动，需要先处理冲突。
 
 For rollback, review `git revert <consolidation-commit-sha>` on a separate branch. It restores the pre-consolidation ICPC layout and leaves the old SWU repository unchanged. Later changes may require conflict resolution.
+
+## 仓库改名 / Repository rename
+
+统一仓库已从 `Maximora-byte/icpctest` 改名为 `Maximora-byte/swu-computerscience`。GitHub 为旧仓库地址提供跳转；不要创建同名的 `icpctest` 新仓库，否则会覆盖旧地址跳转。已有本地克隆建议更新远端地址：
+
+The unified repository was renamed from `Maximora-byte/icpctest` to `Maximora-byte/swu-computerscience`. GitHub redirects the old repository address; creating a new repository named `icpctest` would replace that redirect. Update existing local clones:
+
+```sh
+git remote set-url origin https://github.com/Maximora-byte/swu-computerscience.git
+```
+
+改名前未启用 GitHub Pages，因此没有 Pages 地址需要迁移。仓库内工作流不含旧仓库名称引用；未修改工作流或其权限。旧 `swu-homework` 仓库仍保持不变。外部系统若按仓库名称匹配，需要另行改为新名称。
+
+GitHub Pages was not enabled before the rename, so there is no Pages address to migrate. Repository workflows contain no old-name references; workflows and permissions were not changed. The old `swu-homework` repository remains unchanged. External integrations that match the repository name must be updated separately.

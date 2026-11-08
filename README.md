@@ -12,8 +12,8 @@ One repository, two study directories, with Chinese–English documentation.
 ## 快速开始 / Quick start
 
 ```sh
-git clone https://github.com/Maximora-byte/icpctest.git
-cd icpctest
+git clone https://github.com/Maximora-byte/swu-computerscience.git
+cd swu-computerscience
 ```
 
 分别进入 `icpc/` 或 `coursework/` 后，按对应 README 的命令编译单个程序。每个练习都是独立程序，不能把所有源码链接到一起。文件读写练习请在临时目录运行，避免覆盖样例文件。
