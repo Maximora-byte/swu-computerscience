@@ -4,9 +4,9 @@
 <a id="本仓适用范围"></a>
 ## 本仓适用范围 / Scope in This Repository
 
-当前仓库是独立 C++ 练习与学习笔记；逐文件编译方式见 [README](../README.md#快速开始)。默认分支仅保留自动标签工作流文件，没有统一测试、Codecov 或图片专用工作流。
+当前仓库是独立 C++ 练习与学习笔记；逐文件编译方式见 [ICPC README](../icpc/README.md#快速开始)。默认分支仅保留自动标签工作流文件，没有统一测试、Codecov 或图片专用工作流。
 
-This repository contains independent C++ exercises and learning notes; see the [README](../README.md#快速开始) for per-file compilation. The default branch retains only the auto-label workflow file, not a unified testing, Codecov, or image-specific workflow.
+This repository contains independent C++ exercises and learning notes; see the [ICPC README](../icpc/README.md#快速开始) for per-file compilation. The default branch retains only the auto-label workflow file, not a unified testing, Codecov, or image-specific workflow.
 
 下文的外部服务与密钥流程是条件性协作约定，不表示本仓已经配置这些服务，也不构成启用服务或修改密钥的授权。
 
@@ -72,3 +72,7 @@ GitHub App private keys, existing account OAuth refresh tokens, databases, chat 
 matchall-bot 不消耗 Actions 贴标签额度；旧 auto-label workflow 保持禁用。ImgBot 只在已选择的图片仓库工作。若另行配置 Codecov，应复用已有测试并避免重复上传；当前本仓没有覆盖率上传配置。Copilot 使用学生包含额度，额外预算保持 $0；Doppler 使用已生效的学生 Team 权益，不开启收费附加项。
 
 matchall-bot does not consume Actions quota for labeling; the old auto-label workflow stays disabled. ImgBot works only in selected image repositories. If Codecov is configured separately, reuse existing tests and avoid duplicate uploads; this repository currently has no coverage-upload configuration. Copilot uses the included student quota, with extra spending kept at $0; Doppler uses the active student Team benefits without paid add-ons.
+
+课程练习见 [coursework/README.md](../coursework/README.md)；从仓库根目录运行 `python3 -m unittest discover -s coursework/tests -v`。原课程协作说明保留于 `coursework/.github/` 供历史查阅。
+
+For coursework, see [coursework/README.md](../coursework/README.md); run `python3 -m unittest discover -s coursework/tests -v` from the repository root. Original coursework collaboration notes remain under `coursework/.github/` for historical reference.

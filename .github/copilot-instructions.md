@@ -8,9 +8,9 @@ Read the nearest AGENTS.md, if present, and existing contribution instructions b
 <a id="repository-context"></a>
 ## 仓库背景 / Repository context
 
-本仓库用于算法竞赛练习。各独立题解及题目输入相互隔离，保留算法正确性与复杂度。
+本仓库包含 `icpc/` 算法竞赛练习及 `coursework/` 课程练习。各独立题解及题目输入相互隔离，保留算法正确性与复杂度。
 
-Competitive programming practice repository. Keep independent solutions and problem inputs isolated; preserve algorithm correctness and complexity.
+A study repository with `icpc/` competitive programming and `coursework/` course exercises. Keep independent solutions and problem inputs isolated; preserve algorithm correctness and complexity.
 
 <a id="validation"></a>
 ## 验证 / Validation
@@ -44,3 +44,7 @@ Respond in the user's language; prioritize correctness, security and actionable 
 matchall-bot 负责标签；ImgBot 负责图片优化；Codecov 负责覆盖率证据；Copilot 辅助实现和审查；Doppler 负责明确获批的密钥分发。这些角色有适用前提：本仓库当前没有已提交的测试、图片或覆盖率工作流。按照文档中的命令在本地验证受影响的文件；保留的 auto-label 工作流不能作为测试证据。参见 .github/开发流程_DEVELOPMENT_FLOW.md。
 
 matchall-bot owns labels; ImgBot owns image optimization; Codecov owns coverage evidence; Copilot assists implementation and review; Doppler owns explicitly approved secret distribution. These roles are conditional: this repository currently has no committed test, image or coverage workflow. Validate the affected files locally using the documented commands; the retained auto-label workflow is not test evidence. See .github/开发流程_DEVELOPMENT_FLOW.md.
+
+课程已有回归检查：在仓库根目录运行 `python3 -m unittest discover -s coursework/tests -v`。各组件编译命令从对应组件目录执行。
+
+Existing coursework regression check: run `python3 -m unittest discover -s coursework/tests -v` from the repository root. Run component compilation commands inside the relevant component directory.
