@@ -41,9 +41,9 @@ Do not merge, deploy, change App permissions, relax branch protection, run produ
 
 Respond in the user's language; prioritize correctness, security and actionable findings. Human reviews and CI determine acceptance. Request Copilot review manually once a human code PR is ready; skip routine image, dependency and documentation bot PRs. Keep automatic review, review on every push, and paid overage off unless separately requested. Use the supported Auto model for Copilot Student.
 
-matchall-bot 负责标签；ImgBot 负责图片优化；Codecov 负责覆盖率证据；Copilot 辅助实现和审查；Doppler 负责明确获批的密钥分发。这些角色有适用前提：本仓库当前没有已提交的测试、图片或覆盖率工作流。按照文档中的命令在本地验证受影响的文件；保留的 auto-label 工作流不能作为测试证据。参见 .github/开发流程_DEVELOPMENT_FLOW.md。
+matchall-bot 负责标签；ImgBot 负责图片优化；Codecov 负责覆盖率证据；Copilot 辅助实现和审查；Doppler 负责明确获批的密钥分发。这些角色有适用前提：本仓库已有 `coursework/tests/` 回归测试，但没有运行测试、处理图片或上传覆盖率的 GitHub Actions 工作流。按照文档中的命令在本地验证受影响的文件；保留的 auto-label 工作流不能作为测试证据。参见 .github/开发流程_DEVELOPMENT_FLOW.md。
 
-matchall-bot owns labels; ImgBot owns image optimization; Codecov owns coverage evidence; Copilot assists implementation and review; Doppler owns explicitly approved secret distribution. These roles are conditional: this repository currently has no committed test, image or coverage workflow. Validate the affected files locally using the documented commands; the retained auto-label workflow is not test evidence. See .github/开发流程_DEVELOPMENT_FLOW.md.
+matchall-bot owns labels; ImgBot owns image optimization; Codecov owns coverage evidence; Copilot assists implementation and review; Doppler owns explicitly approved secret distribution. These roles are conditional: this repository has regression tests under `coursework/tests/`, but no GitHub Actions workflow for running tests, processing images, or uploading coverage. Validate the affected files locally using the documented commands; the retained auto-label workflow is not test evidence. See .github/开发流程_DEVELOPMENT_FLOW.md.
 
 课程已有回归检查：在仓库根目录运行 `python3 -m unittest discover -s coursework/tests -v`。各组件编译命令从对应组件目录执行。
 

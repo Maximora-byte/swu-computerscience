@@ -3,7 +3,7 @@
 
 # 🎓 SWU · 高校学习互助 / University Learning Together
 
-**swu-homework**
+**swu-computerscience / coursework**
 
 从一道题的思路，到一门课的积累。让认真留下的笔记与代码，成为下一位同学的起点。<br>
 From the idea behind one exercise to the knowledge built across a course, let thoughtful notes and code give the next student a starting point.
@@ -19,15 +19,18 @@ From the idea behind one exercise to the knowledge built across a course, let th
 
 ---
 
-## 关于这里 / About this repository
+<a id="关于这里--about-this-repository"></a>
+## 关于这里 / About this directory
 
-这是一个从西南大学计算机科学与技术课程作业出发的学习互助仓库，欢迎本校与其他高校的同学交流解题思路、补充学习经验、一起修正错误。
+这里是 `swu-computerscience` 的课程作业目录，由原 `swu-homework` 内容整理而来，欢迎本校与其他高校的同学交流解题思路、补充学习经验、一起修正错误。
 
-This learning community repository began with Computer Science and Technology coursework at Southwest University. Students here and at other universities are welcome to discuss solutions, share learning experience, and correct mistakes together.
+This coursework directory in `swu-computerscience` brings together the original `swu-homework` materials for Computer Science and Technology at Southwest University. Students here and at other universities are welcome to discuss solutions, share learning experience, and correct mistakes together.
 
-目前已收录 **2026 年秋季《高级语言程序设计（C 语言）》71 份独立 C 语言练习源码**，以及 **1 个 C++ Hello World 示例**。内容随贡献逐步积累，完整文件清单与旧名映射见[课程索引](./2026秋季高级语言程序设计%28C语言%29/README.md)。
+[返回统一仓库首页 / Back to repository home](../README.md) · [ICPC 练习与笔记 / ICPC practice and notes](../icpc/README.md)
 
-The repository currently contains **71 standalone C exercise sources for Autumn 2026 Advanced Programming (C)** and **1 C++ Hello World example**. Contributions gradually expand the collection; the [course index](./2026秋季高级语言程序设计%28C语言%29/README.md) lists every source and its previous filename.
+目前已收录 **2026 年秋季《高级语言程序设计（C 语言）》71 份独立 C 语言练习源码**，以及 **1 个 C++ Hello World 示例**。内容随贡献逐步积累，完整文件清单及已知旧名映射见[课程索引](./2026秋季高级语言程序设计%28C语言%29/README.md)。
+
+This directory currently contains **71 standalone C exercise sources for Autumn 2026 Advanced Programming (C)** and **1 C++ Hello World example**. Contributions gradually expand the collection; the [course index](./2026秋季高级语言程序设计%28C语言%29/README.md) lists every source and the known previous filenames.
 
 > **先尝试，再参考，再分享。 / Try first, consult references, then share.**<br>
 > 希望你在这里找到的不只是一个写法，还有理解问题、验证结果和表达思路的方法。<br>
@@ -51,8 +54,17 @@ The repository currently contains **71 standalone C exercise sources for Autumn 
 | [循环结构进阶 / Advanced loops](./2026秋季高级语言程序设计%28C语言%29/欧歌/C语言循环结构进阶/) | 正负数与零统计、百钱买百鸡、素数、九九乘法表、水仙花数<br>Positive/negative/zero counts, the hundred-chickens puzzle, primality, multiplication table, Armstrong numbers | 5 |
 | [一维数组 / One-dimensional arrays](./2026秋季高级语言程序设计%28C语言%29/欧歌/C语言一维数组/) | Fibonacci 数列、成绩统计、逆序数字分离、三位约数枚举<br>Fibonacci sequence, grade statistics, reverse digit extraction, three-digit divisor enumeration | 4 |
 | [二维数组 / Two-dimensional arrays](./2026秋季高级语言程序设计%28C语言%29/欧歌/C语言二维数组/) | 最大值与下标、每行最大值、矩阵转置、行求和、主对角线求和<br>Maximum and indices, row maxima, matrix transpose, row sums, main-diagonal sum | 5 |
+| [函数初步 / Introductory functions](./2026秋季高级语言程序设计%28C语言%29/欧歌/C语言函数初步/) | 回文、条件求和、圆柱体积、素数、重复数字求和<br>Palindromes, conditional sums, cylinder volume, primality, repeated-digit sums | 5 |
+| [函数进阶 / Advanced functions](./2026秋季高级语言程序设计%28C语言%29/欧歌/C语言函数进阶/) | Fibonacci 数列、数组最小值、平均值统计、因子求和<br>Fibonacci sequence, array minimum, above-average counts, divisor sums | 4 |
 | [文件与字符 / Files and characters](./2026秋季高级语言程序设计%28C语言%29/欧歌/文件/) | 字符分类、二进制读写、字符读写、文件字符统计<br>Character classification, binary I/O, character I/O, file character counts | 5 |
-| [超星练习 / Chaoxing exercises](./2026秋季高级语言程序设计%28C语言%29/超星/) | Hello World、整数求和与交换、时间差、体积重量、温度转换、自增自减、消息长度、文件读取、字符统计<br>Hello World, integer sums and swapping, time difference, dimensional weight, temperature conversion, increment/decrement, message length, file reading, character counts | 11 |
+| [超星练习 / Chaoxing exercises](./2026秋季高级语言程序设计%28C语言%29/超星/) | Hello World、整数求和与交换、时间差、体积重量、温度转换、自增自减、消息长度、文件读取、字符统计及文件分类计数<br>Hello World, integer sums and swapping, time difference, dimensional weight, temperature conversion, increment/decrement, message length, file reading, character counts and file-based classification | 12 |
+| [超星作业 1 / Chaoxing assignment 1](./2026秋季高级语言程序设计%28C语言%29/超星/作业1%20Practice%20on%20Structured%20Programming%20and%20Arrays/) | 正弦近似、字符转换、日期格式、矩阵鞍点、佣金计算、选择排序<br>Sine approximation, character conversion, date formatting, saddle points, commission calculation, selection sort | 6 |
+| [学院 FTP 系统 / College FTP system](./2026秋季高级语言程序设计%28C语言%29/学院FTP系统/) | 闰年判断<br>Leap-year check | 1 |
+| [其他练习索引 / Other exercise index](./2026秋季高级语言程序设计%28C语言%29/README.md#additional-exercises) | 课程目录中的 5 份练习及 `素数/` 下的 1 份练习<br>Five exercises at the course-directory root and one under `素数/` | 6 |
+
+以上各行按目录分别统计，共 71 个 C 源文件。
+
+The directory counts above total 71 C source files.
 
 **其他入口 / Other links:** [C++ 你好世界 / C++ Hello World](./examples/cpp/你好世界_hello_world.cpp) · [MIT 许可证 / MIT license](./LICENSE)
 
@@ -137,8 +149,14 @@ coursework/
 │   │   ├── C语言循环结构进阶/
 │   │   ├── C语言一维数组/
 │   │   ├── C语言二维数组/
+│   │   ├── C语言函数初步/
+│   │   ├── C语言函数进阶/
 │   │   └── 文件/
 │   ├── 超星/
+│   │   └── 作业1 Practice on Structured Programming and Arrays/
+│   ├── 学院FTP系统/
+│   ├── 素数/
+│   ├── *.c                 # 5 份独立练习 / 5 standalone exercises
 │   └── README.md
 ├── examples/
 │   └── cpp/
@@ -193,9 +211,9 @@ See the [development flow](../.github/开发流程_DEVELOPMENT_FLOW.md), [automa
 | `.github/AUTO_LABELER.md` | [`.github/自动标签说明_AUTO_LABELER.md`](../.github/自动标签说明_AUTO_LABELER.md) |
 | `.github/DEVELOPMENT_FLOW.md` | [`.github/开发流程_DEVELOPMENT_FLOW.md`](../.github/开发流程_DEVELOPMENT_FLOW.md) |
 
-两个 `README.md` 和 `.github/copilot-instructions.md` 保留固定名称，正文均采用中英双语。全部源码的新旧路径按目录列于[课程索引](./2026秋季高级语言程序设计%28C语言%29/README.md)。
+两个 `README.md` 和 `.github/copilot-instructions.md` 保留固定名称，正文均采用中英双语。全部源码的当前路径及已知旧名按目录列于[课程索引](./2026秋季高级语言程序设计%28C语言%29/README.md)。
 
-Both `README.md` files and `.github/copilot-instructions.md` retain their fixed names and contain bilingual text. The [course index](./2026秋季高级语言程序设计%28C语言%29/README.md) lists every source's old and new path by directory.
+Both `README.md` files and `.github/copilot-instructions.md` retain their fixed names and contain bilingual text. The [course index](./2026秋季高级语言程序设计%28C语言%29/README.md) lists every source's current path, with known previous names and aliases where available, grouped by directory.
 
 <details>
 <summary><b>💬 不知道怎样提问？参考这个格式 / Not sure how to ask? Use this template</b></summary>
@@ -222,9 +240,9 @@ Paste only the minimum necessary code and error messages, and remove personal in
 
 ## 📄 许可证 / License
 
-本仓库采用 [MIT 许可证](./LICENSE)，使用、复制或修改相关软件及文档时，请保留许可证要求的版权与许可声明。第三方材料的权利与授权范围需另行核实。`LICENSE` 保留原始英文法律文本；本段双语介绍不替代或修改许可证。
+本目录保留原 [MIT 许可证](./LICENSE)，使用、复制或修改相关软件及文档时，请保留许可证要求的版权与许可声明。第三方材料的权利与授权范围需另行核实。`LICENSE` 保留原始英文法律文本；本段双语介绍不替代或修改许可证。
 
-This repository uses the [MIT license](./LICENSE). Preserve the required copyright and permission notices when using, copying, or modifying the software and documentation. Verify rights and permissions for third-party materials separately. `LICENSE` retains its original English legal text; this bilingual explanation neither replaces nor modifies it.
+This directory retains its original [MIT license](./LICENSE). Preserve the required copyright and permission notices when using, copying, or modifying the software and documentation. Verify rights and permissions for third-party materials separately. `LICENSE` retains its original English legal text; this bilingual explanation neither replaces nor modifies it.
 
 ---
 

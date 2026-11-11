@@ -1,3 +1,7 @@
+> 历史配置说明：本文件随原 `swu-homework` 内容保留，供迁移查阅。统一仓库的当前说明见根目录 [自动标签说明 / Automatic-labeling guide](../../.github/自动标签说明_AUTO_LABELER.md)；课程编译和回归检查见[课程 README](../README.md)。
+>
+> Historical configuration reference: this file was retained from `swu-homework` for migration reference. Follow the [current root documentation](../../.github/自动标签说明_AUTO_LABELER.md) for the unified repository, and the [coursework README](../README.md) for compilation and regression checks.
+
 # PR / Issue 自动标签（保留的工作流说明） / Automatic PR / Issue Labeling (Retained Workflow Documentation)
 
 本页说明仓库保留的 `.github/workflows/auto-label.yml` 规则与手动入口。当前协作约定见[开发流程](开发流程_DEVELOPMENT_FLOW.md)：标签由 matchall-bot 负责，旧自动标签工作流按该约定保持禁用。文件仍在仓库中不代表 GitHub 上已启用；以下行为仅描述该工作流被授权启用并执行时的机制。

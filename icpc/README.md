@@ -19,11 +19,14 @@
 </div>
 
 <a id="关于这个仓库"></a>
-## 关于这个仓库 / About This Repository
+<a id="关于这个仓库--about-this-repository"></a>
+## 关于这个目录 / About This Directory
 
-自用的 ICPC 练习仓库。目前收录 12 个独立 C++ 源文件：`basic/` 7 个，`luogu/` 5 个，覆盖基础输出、变量、赋值、排序去重、二分与字符串练习。当前 `luogu/P1308_单词统计_word_count.cpp` 已包含整词匹配计数与首次位置输出；此处描述不代表已通过在线评测。
+`swu-computerscience` 中的 ICPC 算法与 C++ 练习目录。目前收录 12 个独立 C++ 源文件：`basic/` 7 个，`luogu/` 5 个，覆盖基础输出、变量、赋值、排序去重、二分与字符串练习。当前 `luogu/P1308_单词统计_word_count.cpp` 已包含整词匹配计数与首次位置输出；此处描述不代表已通过在线评测。
 
-A personal ICPC practice repository containing 12 independent C++ source files: 7 in `basic/` and 5 in `luogu/`. Topics include basic output, variables, assignment, sorting and deduplication, binary search, and strings. The current `luogu/P1308_单词统计_word_count.cpp` counts whole-word matches and outputs the first matching position; this description is not evidence of online-judge acceptance.
+This is the ICPC algorithm and C++ practice directory in `swu-computerscience`. It contains 12 independent C++ source files: 7 in `basic/` and 5 in `luogu/`. Topics include basic output, variables, assignment, sorting and deduplication, binary search, and strings. The current `luogu/P1308_单词统计_word_count.cpp` counts whole-word matches and outputs the first matching position; this description is not evidence of online-judge acceptance.
+
+[返回统一仓库首页 / Back to repository home](../README.md) · [课程作业 / Coursework](../coursework/README.md)
 
 每个 `.cpp` 文件都有独立的 `main()`，应单独编译。源码采用中英双语文件名：基础练习位于 `basic/`，按平台编号保存的练习位于 `luogu/`。文件存在不表示已通过在线评测。
 
@@ -172,18 +175,18 @@ Put compiled outputs in `build/` or `bin/`. Both directories, common executables
 <a id="许可"></a>
 ## 许可 / License
 
-本仓库采用 [MIT License](LICENSE)，版权署名为 Maximora-byte。MIT 英文许可正文保持原样并以其为准；本双语说明不替代许可正文。
+本目录保留原 [MIT License](LICENSE)，版权署名为 Maximora-byte。MIT 英文许可正文保持原样并以其为准；本双语说明不替代许可正文。
 
-This repository uses the [MIT License](LICENSE), with copyright attributed to Maximora-byte. The English MIT license text is unchanged and authoritative; this bilingual explanation does not replace it.
+This directory retains its original [MIT License](LICENSE), with copyright attributed to Maximora-byte. The English MIT license text is unchanged and authoritative; this bilingual explanation does not replace it.
 
 
 
 <a id="filename-index"></a>
 ## 文件名与旧路径索引 / Filename and Legacy-path Index
 
-普通文档和源码采用「中文名_EnglishName.扩展名」，题号和 EX 编号保留在开头，英文部分使用有意义的词语。目录结构不变；一份内容只保留一个正文文件，避免双份源码或翻译长期分叉。文档正文按中文在前、等义英文紧随的方式维护，表格单元格与折叠提示也采用双语。示例代码、命令参数和程序输出不因翻译而改变语义。
+普通文档和源码采用「中文名_EnglishName.扩展名」，题号和 EX 编号保留在开头，英文部分使用有意义的词语。本目录内的分类结构保持不变；一份内容只保留一个正文文件，避免双份源码或翻译长期分叉。文档正文按中文在前、等义英文紧随的方式维护，表格单元格与折叠提示也采用双语。示例代码、命令参数和程序输出不因翻译而改变语义。
 
-Ordinary documents and source files use “Chinese-name_EnglishName.extension,” retaining problem and EX IDs at the beginning and meaningful English words. Directory structure is unchanged; each item has one canonical file to avoid divergent source or translation copies. Maintain Chinese first with equivalent English immediately following, including table cells and collapsible hints. Translation must not change example-code, command-argument, or output semantics.
+Ordinary documents and source files use “Chinese-name_EnglishName.extension,” retaining problem and EX IDs at the beginning and meaningful English words. The category structure within this directory is unchanged; each item has one canonical file to avoid divergent source or translation copies. Maintain Chinese first with equivalent English immediately following, including table cells and collapsible hints. Translation must not change example-code, command-argument, or output semantics.
 
 下表保留迁移前的路径作为检索线索，并链接到当前文件。仓库内引用已更新；旧标题的片段锚点保留在新文档中。GitHub 不为文件改名提供本文可配置的旧 URL 重定向，因此收藏的旧文件链接需要按本表更新路径。
 
@@ -228,4 +231,3 @@ These names support GitHub rendering, tool discovery, or existing configuration 
 | MIT 许可证 / MIT License | [LICENSE](LICENSE) |
 | 自动标签工作流 / Auto-label workflow | [.github/workflows/auto-label.yml](../.github/workflows/auto-label.yml) |
 | 忽略规则 / Ignore rules | [.gitignore](.gitignore) |
-
