@@ -4,9 +4,9 @@
 <a id="本仓适用范围"></a>
 ## 本仓适用范围 / Scope in This Repository
 
-当前仓库是独立 C++ 练习与学习笔记；逐文件编译方式见 [ICPC README](../icpc/README.md#快速开始)。默认分支仅保留自动标签工作流文件，没有统一测试、Codecov 或图片专用工作流。
+当前仓库包含 `icpc/` 的 C++ 算法练习与学习笔记，以及 `coursework/` 的 C/C++ 课程练习。逐文件编译方式见 [ICPC README](../icpc/README.md#快速开始) 和[课程 README](../coursework/README.md#开始使用)；已有课程回归检查见[测试说明](../coursework/README.md#回归检查)。根目录 `.github/workflows/` 仅保留自动标签工作流，没有运行测试、上传覆盖率或处理图片的工作流。
 
-This repository contains independent C++ exercises and learning notes; see the [ICPC README](../icpc/README.md#快速开始) for per-file compilation. The default branch retains only the auto-label workflow file, not a unified testing, Codecov, or image-specific workflow.
+This repository contains C++ algorithm exercises and notes under `icpc/`, plus C/C++ coursework under `coursework/`. See the [ICPC README](../icpc/README.md#快速开始) and [coursework README](../coursework/README.md#开始使用) for per-file compilation, and the [test notes](../coursework/README.md#回归检查) for the existing coursework regression check. Root `.github/workflows/` retains only the auto-label workflow, with no test, coverage-upload, or image-processing workflow.
 
 下文的外部服务与密钥流程是条件性协作约定，不表示本仓已经配置这些服务，也不构成启用服务或修改密钥的授权。
 

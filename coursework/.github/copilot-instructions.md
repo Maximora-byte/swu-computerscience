@@ -1,3 +1,7 @@
+> 历史配置说明：本文件随原 `swu-homework` 内容保留，供迁移查阅。统一仓库的当前说明见根目录 [Copilot 仓库说明 / Copilot repository instructions](../../.github/copilot-instructions.md)；课程编译和回归检查见[课程 README](../README.md)。
+>
+> Historical configuration reference: this file was retained from `swu-homework` for migration reference. Follow the [current root documentation](../../.github/copilot-instructions.md) for the unified repository, and the [coursework README](../README.md) for compilation and regression checks.
+
 # Copilot 仓库说明 / Copilot Repository Instructions
 
 修改前，先读取最近一级的 `AGENTS.md`（如存在）及已有贡献说明。保持一个聚焦的分支与 PR；保留现有行为、许可证和所有者标签。

@@ -1,13 +1,17 @@
-# 编程学习 / Programming Studies
+# 西南大学计算机学习 / SWU Computer Science Studies
 
-一个仓库，两个学习目录；内容采用中英双语。
+西南大学计算机学习记录，收录 C/C++ 课程作业、ICPC 算法练习与学习笔记。课程内容按学期整理，竞赛练习按主题与平台分类，文档采用中英双语。
 
-One repository, two study directories, with Chinese–English documentation.
+Computer science study records at Southwest University: C/C++ coursework, ICPC algorithm practice, and study notes. Coursework is organized by semester, competitive-programming exercises by topic and platform, with Chinese–English documentation.
+
+原 `icpctest` 与 `swu-homework` 的学习内容已整理到本仓库的两个目录中；目录迁移、原仓库历史及旧链接说明见[迁移记录](MIGRATION.md)。
+
+Study materials from `icpctest` and `swu-homework` are organized into two directories here. See the [migration record](MIGRATION.md) for moved paths, original repository history, and legacy links.
 
 | 目录 / Directory | 内容 / Contents |
 | --- | --- |
-| [icpc/](icpc/README.md) | 12 个独立 C++ 竞赛练习、分类题目及标准库学习笔记 / 12 standalone C++ contest exercises, categorized problems, and standard-library notes |
-| [coursework/](coursework/README.md) | 西南大学课程练习：71 个 C 源文件、1 个 C++ 示例及已有回归检查 / SWU coursework: 71 C sources, one C++ example, and existing regression checks |
+| [icpc/](icpc/README.md) | 12 个独立 C++ 练习、分类题目与标准库及算法笔记 / 12 standalone C++ exercises, categorized problems, and standard-library and algorithm notes |
+| [coursework/](coursework/README.md) | 2026 秋季 C 语言课程：71 个 C 源文件、1 个 C++ 示例及已有回归检查 / Autumn 2026 C coursework: 71 C sources, one C++ example, and existing regression checks |
 
 ## 快速开始 / Quick start
 

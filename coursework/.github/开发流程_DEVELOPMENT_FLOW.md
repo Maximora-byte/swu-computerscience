@@ -1,3 +1,7 @@
+> 历史配置说明：本文件随原 `swu-homework` 内容保留，供迁移查阅。统一仓库的当前说明见根目录 [开发流程 / Development workflow](../../.github/开发流程_DEVELOPMENT_FLOW.md)；课程编译和回归检查见[课程 README](../README.md)。
+>
+> Historical configuration reference: this file was retained from `swu-homework` for migration reference. Follow the [current root documentation](../../.github/开发流程_DEVELOPMENT_FLOW.md) for the unified repository, and the [coursework README](../README.md) for compilation and regression checks.
+
 # 开发、审查与密钥流程 / Development, Review, and Secret Management Workflow
 
 ## 本仓适用范围 / Scope for This Repository

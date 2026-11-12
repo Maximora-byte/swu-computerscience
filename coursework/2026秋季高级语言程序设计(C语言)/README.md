@@ -1,14 +1,14 @@
 # 高级语言程序设计（C 语言） / Advanced Programming (C)
 
-**2026 秋季 · 48 份独立 C 语言练习，另附 1 个 C++ 示例索引**
+**2026 秋季 · 71 份独立 C 语言练习，另附 1 个 C++ 示例索引**
 
-**Autumn 2026 · 48 standalone C exercises, plus an index entry for 1 C++ example**
+**Autumn 2026 · 71 standalone C exercises, plus an index entry for 1 C++ example**
 
-[返回仓库首页 / Back to repository home](../README.md)
+[返回课程导航 / Back to coursework](../README.md) · [统一仓库首页 / Repository home](../../README.md)
 
-课程目录完整保留为 `2026秋季高级语言程序设计(C语言)/`，仍按练习来源和原有知识点分类。源码文件采用“中文题名_english_snake_case”双语命名；下表完整列出本次整理前的文件名、新文件名及更早的已知别名。目录名不变，各行旧名与新名属于该节所示的同一目录。
+课程目录完整保留为 `2026秋季高级语言程序设计(C语言)/`，仍按练习来源和原有知识点分类。早期整理的 48 份源码采用“中文题名_english_snake_case”双语命名，下表保留它们的当前文件名、旧文件名及已知别名；另有 23 份源码保留现有文件名，在[补充练习](#additional-exercises)中列出。本页不重命名或修改源码。目录名不变，各行旧名与新名属于该节所示的同一目录。
 
-The course directory remains `2026秋季高级语言程序设计(C语言)/`, grouped by exercise source and the existing topics. Source filenames use bilingual `中文题名_english_snake_case` names. The tables list every filename before this update, its new name, and known earlier aliases. Directories are unchanged; each row’s old and new names share the directory shown in its section.
+The course directory remains `2026秋季高级语言程序设计(C语言)/`, grouped by exercise source and the existing topics. The 48 previously organized sources use bilingual `中文题名_english_snake_case` names; their tables retain current names, previous names, and known aliases. Another 23 sources keep their existing filenames and are listed under [additional exercises](#additional-exercises). This documentation update neither renames nor changes source files. Directories are unchanged; each row’s old and new names share the directory shown in its section.
 
 每份源码都有独立的 `main`，请单独编译。两个整数求和实现、不同目录下的大小写转换和字符统计练习均分别保留，不合并或复制。文件名和索引只描述现有内容，不代表正确性评定或在线评测通过。
 
@@ -125,6 +125,39 @@ Each source has its own `main`; compile files separately. Both integer-sum imple
 | 用 fgets 分块逐行读取并输出 f.txt，不进行成绩统计<br>Read and print f.txt linewise in fgets-sized chunks; no grade statistics are calculated | [`逐行读取文件_read_file_lines.c`](./%E8%B6%85%E6%98%9F/%E9%80%90%E8%A1%8C%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6_read_file_lines.c) | `wenjianchengji.c` | 无另行记录 / None recorded |
 | 统计一行输入中的字母、数字、空格和其他字符<br>Count letters, digits, spaces, and other characters in one input line | [`字符分类统计_count_character_types.c`](./%E8%B6%85%E6%98%9F/%E5%AD%97%E7%AC%A6%E5%88%86%E7%B1%BB%E7%BB%9F%E8%AE%A1_count_character_types.c) | `统计字符.c` | 无另行记录 / None recorded |
 
+<a id="additional-exercises"></a>
+## 补充练习 / Additional exercises
+
+以下 23 份源码已存在于课程目录，本次补齐导航并保留当前文件名；未记录的旧名不作推测。描述依据现有源码，不代表已通过测试或在线评测。
+
+These 23 sources already exist in the course directory. This update adds their missing index entries while retaining current filenames and making no assumptions about undocumented earlier names. Descriptions reflect the source, not test or online-judge acceptance.
+
+| 当前路径 / Current path | 内容 / Contents |
+| :--- | :--- |
+| [`for计算pi.c`](./for%E8%AE%A1%E7%AE%97pi.c) | 用一百万项交错级数近似 π<br>Approximate π with one million alternating-series terms |
+| [`利用无穷级数算pi.c`](./%E5%88%A9%E7%94%A8%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0%E7%AE%97pi.c) | 用一百万项交错级数近似 π，保留独立文件<br>Approximate π with one million alternating-series terms, retained as a separate file |
+| [`学院FTP系统/判断闰年.c`](./%E5%AD%A6%E9%99%A2FTP%E7%B3%BB%E7%BB%9F/%E5%88%A4%E6%96%AD%E9%97%B0%E5%B9%B4.c) | 按公历规则判断闰年<br>Check leap years using Gregorian rules |
+| [`斐波那契数列.c`](./%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.c) | 输出前 40 项 Fibonacci 数列<br>Print the first 40 Fibonacci numbers |
+| [`斐波那契数列前40相.c`](./%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E5%89%8D40%E7%9B%B8.c) | 输出前 40 项 Fibonacci 数列并换行<br>Print the first 40 Fibonacci numbers followed by a newline |
+| [`欧歌/C语言函数初步/回文判断.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/%E5%9B%9E%E6%96%87%E5%88%A4%E6%96%AD.c) | 按五位数拆分并比较两端数位<br>Compare outer digits using a five-digit decomposition |
+| [`欧歌/C语言函数初步/找符合条件之数.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/%E6%89%BE%E7%AC%A6%E5%90%88%E6%9D%A1%E4%BB%B6%E4%B9%8B%E6%95%B0.c) | 累加 1 到 n 中能被 3 或 7 整除的数<br>Sum values from 1 to n divisible by 3 or 7 |
+| [`欧歌/C语言函数初步/求圆柱体的体积.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/%E6%B1%82%E5%9C%86%E6%9F%B1%E4%BD%93%E7%9A%84%E4%BD%93%E7%A7%AF.c) | 用函数计算圆柱体积，π 取 3.14<br>Calculate cylinder volume with a function, using π = 3.14 |
+| [`欧歌/C语言函数初步/素数判断.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/%E7%B4%A0%E6%95%B0%E5%88%A4%E6%96%AD.c) | 用函数判断输入整数是否为素数<br>Check primality with a function |
+| [`欧歌/C语言函数初步/计算s=a+aa.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E5%88%9D%E6%AD%A5/%E8%AE%A1%E7%AE%97s%3Da%2Baa.c) | 累加 n 个逐步重复数字 a 的项<br>Sum n terms formed by repeating digit a |
+| [`欧歌/C语言函数进阶/斐波那契数列.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.c) | 生成 n 项 Fibonacci 数列，每 10 项换行<br>Generate n Fibonacci numbers, wrapping after every 10 values |
+| [`欧歌/C语言函数进阶/求数组中最小元素.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/%E6%B1%82%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0.c) | 查找 10 个输入整数中的最小值<br>Find the minimum of 10 input integers |
+| [`欧歌/C语言函数进阶/求数组中高于平均值的元素个数.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/%E6%B1%82%E6%95%B0%E7%BB%84%E4%B8%AD%E9%AB%98%E4%BA%8E%E5%B9%B3%E5%9D%87%E5%80%BC%E7%9A%84%E5%85%83%E7%B4%A0%E4%B8%AA%E6%95%B0.c) | 统计 10 个整数中大于平均值的个数<br>Count values above the average of 10 integers |
+| [`欧歌/C语言函数进阶/计算某整数的所有因子之和.c`](./%E6%AC%A7%E6%AD%8C/C%E8%AF%AD%E8%A8%80%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/%E8%AE%A1%E7%AE%97%E6%9F%90%E6%95%B4%E6%95%B0%E7%9A%84%E6%89%80%E6%9C%89%E5%9B%A0%E5%AD%90%E4%B9%8B%E5%92%8C.c) | 累加正因子，包含输入数本身<br>Sum positive divisors, including the input itself |
+| [`素数.c`](./%E7%B4%A0%E6%95%B0.c) | 从 input.txt 读取 10 个整数，向 output.txt 写入素数个数<br>Read 10 integers from input.txt and write their prime count to output.txt |
+| [`素数/素数.c`](./%E7%B4%A0%E6%95%B0/%E7%B4%A0%E6%95%B0.c) | 同类文件读写素数统计练习，保留独立路径<br>A separate file-I/O prime-counting exercise at its existing path |
+| [`超星/123.c`](./%E8%B6%85%E6%98%9F/123.c) | 分类统计 input.txt 的字符并写入 output.txt，忽略回车和换行<br>Classify characters from input.txt into output.txt, ignoring carriage returns and line feeds |
+| [`超星/作业1 Practice on Structured Programming and Arrays/利用泰勒级数近似计算正弦值.c`](./%E8%B6%85%E6%98%9F/%E4%BD%9C%E4%B8%9A1%20Practice%20on%20Structured%20Programming%20and%20Arrays/%E5%88%A9%E7%94%A8%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0%E8%BF%91%E4%BC%BC%E8%AE%A1%E7%AE%97%E6%AD%A3%E5%BC%A6%E5%80%BC.c) | 用泰勒级数近似 sin(x)，并与 math.h 结果对照<br>Approximate sin(x) with a Taylor series and compare with math.h |
+| [`超星/作业1 Practice on Structured Programming and Arrays/字符输入ASCII 码.c`](./%E8%B6%85%E6%98%9F/%E4%BD%9C%E4%B8%9A1%20Practice%20on%20Structured%20Programming%20and%20Arrays/%E5%AD%97%E7%AC%A6%E8%BE%93%E5%85%A5ASCII%20%E7%A0%81.c) | 读到 ! 或 EOF 为止，字母转小写并循环后移一位<br>Read until ! or EOF, lowercase letters and shift them forward cyclically |
+| [`超星/作业1 Practice on Structured Programming and Arrays/将日期转换为法律文书格式.c`](./%E8%B6%85%E6%98%9F/%E4%BD%9C%E4%B8%9A1%20Practice%20on%20Structured%20Programming%20and%20Arrays/%E5%B0%86%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E6%B3%95%E5%BE%8B%E6%96%87%E4%B9%A6%E6%A0%BC%E5%BC%8F.c) | 把月/日/年转换为英文日期句式<br>Format a month/day/year input as an English date sentence |
+| [`超星/作业1 Practice on Structured Programming and Arrays/矩阵鞍点问题.c`](./%E8%B6%85%E6%98%9F/%E4%BD%9C%E4%B8%9A1%20Practice%20on%20Structured%20Programming%20and%20Arrays/%E7%9F%A9%E9%98%B5%E9%9E%8D%E7%82%B9%E9%97%AE%E9%A2%98.c) | 查找首个行最大、列最小的矩阵元素<br>Find the first matrix entry maximal in its row and minimal in its column |
+| [`超星/作业1 Practice on Structured Programming and Arrays/计算股票经纪人佣金.c`](./%E8%B6%85%E6%98%9F/%E4%BD%9C%E4%B8%9A1%20Practice%20on%20Structured%20Programming%20and%20Arrays/%E8%AE%A1%E7%AE%97%E8%82%A1%E7%A5%A8%E7%BB%8F%E7%BA%AA%E4%BA%BA%E4%BD%A3%E9%87%91.c) | 按题设分段公式计算佣金，最低值为 39<br>Calculate commission using the exercise's tiered formula and a minimum of 39 |
+| [`超星/作业1 Practice on Structured Programming and Arrays/选择排序.c`](./%E8%B6%85%E6%98%9F/%E4%BD%9C%E4%B8%9A1%20Practice%20on%20Structured%20Programming%20and%20Arrays/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.c) | 用选择排序升序排列输入整数<br>Sort input integers ascending with selection sort |
+
 ## 名称与实现差异 / Names and implementation differences
 
 - 旧名 `统计不大于n的偶数之和.c` 的程序先执行 `n--`，实际累计严格小于 n 的正偶数；原来的“不大于”输出文字没有修改。<br>The program formerly named `统计不大于n的偶数之和.c` executes `n--` first, so it sums positive even numbers strictly below n. Its original “not greater than” output text is unchanged.
@@ -141,19 +174,20 @@ Each source has its own `main`; compile files separately. Both integer-sum imple
 
 ## 编译与提交 / Compiling and submitting
 
-在仓库根目录执行以下示例（Linux、macOS 或 Git Bash，需要 GCC）。
+先从统一仓库根目录进入 `coursework/`，再执行以下示例（Linux、macOS 或 Git Bash，需要 GCC）。
 
-Run this example from the repository root (Linux, macOS, or Git Bash, with GCC installed).
+From the unified repository root, enter `coursework/` before running this example (Linux, macOS, or Git Bash, with GCC installed).
 
 ```bash
+cd coursework
 mkdir -p build
 gcc "2026秋季高级语言程序设计(C语言)/超星/你好世界_hello_world.c" -o build/hello
 ./build/hello
 ```
 
-输出放在已被 Git 忽略的 `build/` 目录。Windows PowerShell 的建目录与运行写法见[仓库首页](../README.md#开始使用)。
+输出放在已被 Git 忽略的 `build/` 目录。Windows PowerShell 的建目录与运行写法见[课程导航页](../README.md#开始使用)。
 
-Put build outputs in the Git-ignored `build/` directory. See the [repository home](../README.md#开始使用) for directory creation and execution in Windows PowerShell.
+Put build outputs in the Git-ignored `build/` directory. See the [coursework guide](../README.md#开始使用) for directory creation and execution in Windows PowerShell.
 
 涉及 `sqrt`、`sin`、`exp` 等数学函数的程序，在部分 GCC 环境中需要在编译命令末尾添加 `-lm`。
 
